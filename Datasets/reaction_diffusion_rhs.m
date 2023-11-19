@@ -1,4 +1,4 @@
-function rhs=reaction_diffusion_rhs(t,uvt,dummy,K22,d1,d2,beta,n,N);
+function rhs=reaction_diffusion_rhs(t,uvt,dummy,K22,d1,d2,beta,n,N)
 
 % Calculate u and v terms
 ut=reshape((uvt(1:N)),n,n);
